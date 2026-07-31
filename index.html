@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Academic homepage of Xue-Feng Zhu — research, publications, awards, and professional experience."
+  />
+  <title>Xue-Feng Zhu | Academic Homepage</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top">Xue-Feng Zhu 朱学峰</a>
+
+      <button class="menu-button" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#awards">Awards</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="profile-card">
+          <img
+            class="profile-photo"
+            src="assets/Xuefeng.jpg"
+            alt="Portrait of Your Name"
+          />
+
+          <div class="profile-links" aria-label="Academic profiles">
+            <a href="https://scholar.google.com/citations?user=tH4flbMAAAAJ&hl=en" target="_blank" rel="noreferrer">
+              Google Scholar
+            </a>
+            <a href="https://orcid.org/my-orcid?orcid=0000-0003-0262-5891" target="_blank" rel="noreferrer">
+              ORCID
+            </a>
+            <a href="https://github.com/xuefeng-zhu5" target="_blank" rel="noreferrer">
+              GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-content">
+          <p class="eyebrow">Academic Homepage</p>
+          <h1>Xue-Feng Zhu </h1>
+          <p class="hero-subtitle">
+            School of Artificial Intelligence and Computer Science, Jiangnan University
+          </p>
+
+          <p class="hero-summary">
+            I am currently a Lecturer with the School of Artificial Intelligence and Computer Science, Jiangnan University, Wuxi, China.
+            I received my Ph.D. degree from Jiangnan University in 2024 under the supervision of Prof. Xiao-Jun Wu and Prof. Josef Kittler.
+            I was a visiting student at the Centre for Vision, Speech and Signal Processing (CVSSP), University of Surrey, Guildford, United Kingdom, from 2022 to 2023.
+            My research interests include computer vision and pattern recognition, e.g., visual object tracking, and multi-modal learning.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button primary" href="#publications">View Publications</a>
+<!--            <a class="button secondary" href="#awards">View Awards</a>-->
+          </div>
+
+          <div class="contact-line">
+            <span>Email:</span>
+            <a href="mailto:yourname@example.com">xuefeng.zhu@jiangnan.edu.cn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications" class="section section-alt">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Research Output</p>
+          <h2>Publications</h2>
+<!--          <p>-->
+<!--            Use reverse chronological order. Bold your own name and add links-->
+<!--            to the paper, code, project page, or supplementary materials.-->
+<!--          </p>-->
+        </div>
+
+        <div class="publication-list">
+          <article class="publication-card">
+            <div class="publication-year">2026</div>
+            <div>
+              <h3>
+               Adaptive Continual Learning for Online Visual Object Tracking via Dynamic Grassmannian Appearance Modelling
+              </h3>
+              <p class="authors">
+               Jinlin Zhou, Tianyang Xu, <strong>Xue-Feng Zhu</strong>, Xiao-Jun Wu, Josef Kittler
+              </p>
+              <p class="venue">
+                IEEE Transactions on Circuits and Systems for Video Technology, 2026
+              </p>
+<!--              <img-->
+<!--                  src="assets/DG-Track.png"-->
+<!--                  alt="Receiving an award at the competition"-->
+<!--                  class="content-image"-->
+<!--              />-->
+<!--              <p class="publication-description">-->
+<!--                Online visual object tracking fundamentally constitutes a continual learning challenge, demanding persistent adaptation to target variations within dynamic video streams, while preserving critical features to prevent forgetting.-->
+<!--                Existing template-based trackers are particularly vulnerable to severe target deformation and drastic background changes in real-world scenarios.-->
+<!--                Recent explorations enhance adaptability through local update strategies—such as dynamic templates, appearance tokens, and parameter fine-tuning—to address rapid appearance variations.-->
+<!--                However, these methods inherently propagate target appearance changes without explicit modelling and prioritise short-term adaptation over long-term global representation.-->
+<!--                Consequently, they fail to balance initial target features with current observations, leading to tracking failure in long-term scenarios.-->
+<!--                To overcome these limitations, we propose DG-Track, an adaptive continual learning framework leveraging Grassmannian manifold geometry.-->
+<!--                Specifically, we represent target appearance within a Grassmannian affine subspace and perform continual adaptation via incremental learning.-->
+<!--                Compared to Euclidean geometry, the Grassmannian manifold captures nonlinear appearance representations, yielding more compact and geometrically consistent temporal dynamics modelling. Furthermore, an adaptive forgetting module dynamically regulates the interplay between the current observed subspace and the initial template, ensuring stable long-term tracking.-->
+<!--                DG-Track is a plug-and-play solution for online tracking, adding no learnable parameters. -->
+<!--                Comprehensive experiments with diverse baseline trackers on LaSOT, GOT-10k, TrackingNet, and UAV123 validate the efficacy of our continual learning framework and Grassmannian manifold geometry in enhancing visual object tracking performance.-->
+<!--              </p>-->
+              <div class="publication-links">
+                <a href="https://ieeexplore.ieee.org/abstract/document/11363582">Paper</a>
+                <a href="https://github.com/xiaoqing0825/DGTrack">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="publication-card">
+          <div class="publication-year">2025</div>
+
+        <div class="publication-group">
+
+          <!-- 第一篇论文 -->
+          <div class="paper-item">
+            <h3>Collaborating Vision, Depth, and Thermal Signals for Multi-Modal Tracking: Dataset and Algorithm</h3>
+
+            <p class="authors">
+              <strong>Xue-Feng Zhu</strong>, Tianyang Xu, Yifan Pan, Jinjie Gu, Xi Li, Jiwen Lu, Xiao-Jun Wu, Josef Kittler
+            </p>
+
+            <p class="venue">
+              Advances in Neural Information Processing Systems 38 (NeurIPS 2025)
+            </p>
+
+<!--            <p class="publication-description">-->
+<!--              Briefly describe the main contribution of this paper.-->
+<!--            </p>-->
+
+            <div class="publication-links">
+              <a href="https://proceedings.neurips.cc/paper_files/paper/2025/file/b4962fcd5d4410a9f43ef70f528eedd8-Paper-Datasets_and_Benchmarks_Track.pdf" target="_blank">Paper</a>
+              <a href="https://github.com/xuefeng-zhu5/RGBDT500" target="_blank">Code</a>
+              <a href="https://xuefeng-zhu5.github.io/RGBDT500/" target="_blank">Project</a>
+              <a href="NeurIPS-2025-collaborating-vision-depth-and-thermal-signals-for-multi-modal-tracking-dataset-and-algorithm-Bibtex" target="_blank">Bibtex</a>
+            </div>
+          </div>
+
+          <div class="paper-item">
+            <h3>Revisiting RGBT Tracking Benchmarks From the Perspective of Modality Validity: A New Benchmark, Problem, and Solution</h3>
+
+            <p class="authors">
+              Zhangyong Tang, Tianyang Xu, Xiao-Jun Wu, <strong>Xue-Feng Zhu</strong>, Chunyang Cheng, Zhenhua Feng, Josef Kittler
+            </p>
+
+            <p class="venue">
+              IEEE Transactions on Image Processing, 2025
+            </p>
+
+            <div class="publication-links">
+              <a href="https://ieeexplore.ieee.org/abstract/document/11178209" target="_blank">Paper</a>
+              <a href="https://github.com/Zhangyong-Tang/MVRGBT" target="_blank">Code</a>
+            </div>
+          </div>
+
+          <div class="paper-item">
+            <h3>Serial Over Parallel: Learning Continual Unification for Multi-Modal Visual Object Tracking and Benchmarking</h3>
+
+            <p class="authors">
+              Zhangyong Tang, Tianyang Xu, <strong>Xue-Feng Zhu</strong>, Chunyang Cheng, Tao Zhou, Xiaojun Wu, Josef Kittler
+            </p>
+
+            <p class="venue">
+              Proceedings of the 33rd ACM International Conference on Multimedia (ACM MM), 2025
+            </p>
+
+            <div class="publication-links">
+              <a href="https://dl.acm.org/doi/abs/10.1145/3746027.3754879" target="_blank">Paper</a>
+              <a href="https://github.com/Zhangyong-Tang/UniBench300" target="_blank">Code</a>
+            </div>
+          </div>
+
+
+          <div class="paper-item">
+            <h3>SPD-Updater: Symmetric Positive Definite Manifold Geometry Based Temporal Updating for Visual Object Tracking</h3>
+
+            <p class="authors">
+              Jinglin Zhou, Tianyang Xu, <strong>Xue-Feng Zhu</strong>, Xiao-Jun Wu, Josef Kittler
+            </p>
+
+            <p class="venue">
+              Neural Networks, 2025
+            </p>
+
+<!--            <p class="publication-description">-->
+<!--              Briefly describe the main contribution of this paper.-->
+<!--            </p>-->
+
+            <div class="publication-links">
+              <a href="https://www.sciencedirect.com/science/article/abs/pii/S0893608025008664" target="_blank">Paper</a>
+            </div>
+          </div>
+
+                    <!-- 第4篇论文 -->
+          <div class="paper-item">
+            <h3>Learning Adaptive Detection and Tracking Collaborations with Augmented UAV Synthesis for Accurate Anti-UAV System</h3>
+
+            <p class="authors">
+              Shihan Liu, Tianyang Xu, <strong>Xue-Feng Zhu</strong>, Xiao-Jun Wu, Josef Kittler
+            </p>
+
+            <p class="venue">
+              Expert Systems with Applications, 2025
+            </p>
+
+            <div class="publication-links">
+              <a href="https://www.sciencedirect.com/science/article/abs/pii/S0957417425013016" target="_blank">Paper</a>
+              <a href="https://github.com/Shihan0325/Anti-MUAV15" target="_blank">Paper</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+        <article class="publication-card">
+          <div class="publication-year">2024</div>
+
+          <div class="publication-group">
+
+              <div class="paper-item">
+              <h3>UniMod1K: Towards a More Universal Large-Scale Dataset and Benchmark for Multi-Modal Learning</h3>
+
+              <p class="authors">
+                <strong>Xue-Feng Zhu</strong>, Tianyang Xu, Zongtao Liu, Zhangyong Tang, Xiao-Jun Wu & Josef Kittler
+              </p>
+
+              <p class="venue">
+                International Journal of Computer Vision, 2024
+              </p>
+
+
+              <div class="publication-links">
+                <a href="https://link.springer.com/article/10.1007/s11263-024-01999-8" target="_blank">Paper</a>
+                <a href="https://github.com/xuefeng-zhu5/UniMod1K" target="_blank">Code</a>
+              </div>
+            </div>
+
+            <div class="paper-item">
+              <h3>Self-Supervised Learning for RGB-D Object Tracking</h3>
+
+              <p class="authors">
+                <strong>Xue-Feng Zhu</strong>, Tianyang Xu, Sara Atito, Muhammad Awais, Xiao-Jun Wu, Zhenhua Feng, Josef Kittler
+              </p>
+
+              <p class="venue">
+                Pattern Recognition, 2024
+              </p>
+
+              <div class="publication-links">
+                <a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320324002942" target="_blank">Paper</a>
+              </div>
+            </div>
+
+
+            <div class="paper-item">
+              <h3>Learning Feature Restoration Transformer for Robust Dehazing Visual Object Tracking</h3>
+
+              <p class="authors">
+                Tianyang Xu, Yifan Pan, Zhenhua Feng, <strong>Xue-Feng Zhu</strong>, Chunyang Cheng, Xiao-Jun Wu, Josef Kittler
+              </p>
+
+              <p class="venue">
+                International Journal of Computer Vision, 2024
+              </p>
+
+
+              <div class="publication-links">
+                <a href="https://link.springer.com/article/10.1007/s11263-024-02182-9" target="_blank">Paper</a>
+              </div>
+            </div>
+
+            <div class="paper-item">
+              <h3>Learning Adaptive Spatio-Temporal Inference Transformer for Coarse-to-Fine Animal Visual Tracking: Algorithm and Benchmark</h3>
+
+              <p class="authors">
+                Tianyang Xu, Ze Kang, <strong>Xue-Feng Zhu</strong>, Xiao-Jun Wu
+              </p>
+
+              <p class="venue">
+                International Journal of Computer Vision, 2024
+              </p>
+
+              <div class="publication-links">
+                <a href="https://link.springer.com/article/10.1007/s11263-024-02008-8" target="_blank">Paper</a>
+                <a href="https://github.com/XU-TIANYANG/ZOO145" target="_blank">Code</a>
+              </div>
+            </div>
+
+              <div class="paper-item">
+              <h3>Towards Accurate Unsupervised Video Captioning with Implicit Visual Feature Injection and Explicit</h3>
+
+              <p class="authors">
+                Yunjie Zhang, Tianyang Xu, Xiaoning Song, <strong>Xue-Feng Zhu</strong>, Zhenghua Feng, Xiao-Jun Wu
+              </p>
+
+              <p class="venue">
+                International Journal of Computer Vision, 2024
+              </p>
+
+              <div class="publication-links">
+                <a href="https://www.sciencedirect.com/science/article/abs/pii/S0167865524001569" target="_blank">Paper</a>
+              </div>
+            </div>
+
+            <div class="paper-item">
+              <h3>Generative-Based Fusion Mechanism for Multi-Modal Tracking</h3>
+
+              <p class="authors">
+                Zhangyong Tang, Tianyang Xu, Xiaojun Wu, <strong>Xue-Feng Zhu</strong>, Josef Kittler
+              </p>
+
+              <p class="venue">
+                 AAAI Conference on Artificial Intelligence (AAAI), 2024
+              </p>
+
+              <div class="publication-links">
+                <a href="http://ojs.aaai.org/index.php/AAAI/article/view/28325" target="_blank">Paper</a>
+                <a href="ttps://github.com/Zhangyong-Tang/GMMT" target="_blank">Code</a>
+              </div>
+            </div>
+
+                        <div class="paper-item">
+              <h3>Memory Prompt for Spatiotemporal Transformer Visual Object Tracking</h3>
+
+              <p class="authors">
+                Tianyang Xu, Xiao-Jun Wu, <strong>Xue-Feng Zhu</strong>, Josef Kittler
+              </p>
+
+              <p class="venue">
+                 IEEE Transactions on Artificial Intelligence, 2024
+              </p>
+
+              <div class="publication-links">
+                <a href="https://ieeexplore.ieee.org/abstract/document/10400189" target="_blank">Paper</a>
+              </div>
+            </div>
+
+          </div>
+        </article>
+
+          <article class="publication-card">
+      <div class="publication-year">2023</div>
+
+      <div class="publication-group">
+
+        <!-- 第一篇论文 -->
+        <div class="paper-item">
+          <h3>RGBD1K: A Large-Scale Dataset and Benchmark for RGB-D Object Tracking</h3>
+
+          <p class="authors">
+            <strong>Xue-Feng Zhu</strong>, Tianyang Xu, Zhangyong Tang, Zucheng Wu, Haodong Liu, Xiao Yang, Xiao-Jun Wu, Josef Kittler
+          </p>
+
+          <p class="venue">
+            Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), Oral, 2023
+          </p>
+
+          <div class="publication-links">
+            <a href="https://ojs.aaai.org/index.php/AAAI/article/view/25500" target="_blank">Paper</a>
+            <a href="https://github. com/xuefeng-zhu5/RGBD1K" target="_blank">Code</a>
+          </div>
+        </div>
+
+
+        <!-- 第二篇论文 -->
+        <div class="paper-item">
+          <h3>Learning Spatio-Temporal Discriminative Model for Affine Subspace Based Visual Object Tracking</h3>
+
+          <p class="authors">
+            Tianyang Xu, <strong>Xue-Feng Zhu</strong>, Xiao-Jun Wu
+          </p>
+
+          <p class="venue">
+            Visual Intelligence, 2023
+          </p>
+
+
+          <div class="publication-links">
+            <a href="https://link.springer.com/article/10.1007/s44267-023-00002-1" target="_blank">Paper</a>
+          </div>
+        </div>
+
+
+        <!-- 第三篇论文 -->
+        <div class="paper-item">
+          <h3>Exploring Fusion Strategies for Accurate RGBT Visual Object Tracking</h3>
+
+          <p class="authors">
+           Zhangyong Tang, Tianyang Xu, Hui Li, Xiao-Jun Wu, <strong>Xue-Feng Zhu</strong>, Josef Kittler
+          </p>
+
+          <p class="venue">
+            Information Fusion, 2023
+          </p>
+
+          <div class="publication-links">
+            <a href="https://www.sciencedirect.com/science/article/abs/pii/S1566253523001975" target="_blank">Paper</a>
+            <a href="https://github.com/Zhangyong-Tang/DFAT" target="_blank">Code</a>
+          </div>
+        </div>
+
+      </div>
+    </article>
+
+              <article class="publication-card">
+      <div class="publication-year">2022</div>
+
+      <div class="publication-group">
+
+        <!-- 第一篇论文 -->
+        <div class="paper-item">
+          <h3>Robust Visual Object Tracking via Adaptive Attribute-Aware Discriminative Correlation Filters</h3>
+
+          <p class="authors">
+            <strong>Xue-Feng Zhu</strong>, Xiao-Jun Wu, Tianyang Xu, Zhen-Hua Feng, Josef Kittler
+          </p>
+
+          <p class="venue">
+            IEEE Transactions on Multimedia, 2022
+          </p>
+
+          <div class="publication-links">
+            <a href="https://ieeexplore.ieee.org/document/9318537/" target="_blank">Paper</a>
+            <a href="https://github.com/xuefeng-zhu5/A3DCF" target="_blank">Code</a>
+          </div>
+        </div>
+
+      </div>
+    </article>
+
+       <article class="publication-card">
+      <div class="publication-year">2021</div>
+
+      <div class="publication-group">
+
+        <div class="paper-item">
+          <h3>Complementary Discriminative Correlation Filters Based on Collaborative Representation for Visual Object Tracking</h3>
+
+          <p class="authors">
+            <strong>Xue-Feng Zhu</strong>, Xiao-Jun Wu, Tianyang Xu, Zhen-Hua Feng, Josef Kittler
+          </p>
+
+          <p class="venue">
+            IEEE Transactions on Circuits and Systems for Video Technology, 2021
+          </p>
+
+          <div class="publication-links">
+            <a href="https://doi.org/10.1109/TCSVT.2020.2979480" target="_blank">Paper</a>
+          </div>
+        </div>
+
+        <div class="paper-item">
+          <h3>Adaptive Feature Fusion for Visual Object Tracking</h3>
+
+          <p class="authors">
+            Shaochuan Zhao, Tianyang Xu, Xiao-Jun Wu, <strong>Xue-Feng Zhu</strong>
+          </p>
+
+          <p class="venue">
+            Pattern Recognition, 2021
+          </p>
+
+          <div class="publication-links">
+            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320320304829" target="_blank">Paper</a>
+          </div>
+        </div>
+
+      </div>
+    </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="awards" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Recognition</p>
+          <h2>Honors & Awards</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-date">2026</div>
+            <div class="timeline-content">
+              <h3>1st-Place Award, URVIS 2026 Modality-Missing RGBT Tracking Challenge (CVPR 2026)</h3>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">2023</div>
+            <div class="timeline-content">
+              <h3>2nd-Place Award, Perception Test Challenge - Point Tracking (ICCV 2023)</h3>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">2023</div>
+            <div class="timeline-content">
+              <h3>Most Novel Submission, Perception Test Challenge (ICCV 2023)</h3>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">2022</div>
+            <div class="timeline-content">
+              <h3>2nd-Place Award, VOT-D2022 Challenge (ECCV2022)</h3>
+            </div>
+          </article>
+
+            <article class="timeline-item">
+            <div class="timeline-date">2021</div>
+            <div class="timeline-content">
+              <h3>3rd-Place Award, Anti-UAV2021 Challenge (CVPR 2021)</h3>
+            </div>
+          </article>
+
+             <article class="timeline-item">
+            <div class="timeline-date">2020</div>
+            <div class="timeline-content">
+              <h3>1st-Place Award, VOT-RGBT2020 Challenge (ECCV 2020)</h3>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section section-alt">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Background</p>
+          <h2>Education & Experience</h2>
+        </div>
+
+        <div class="two-column">
+          <div class="info-card">
+            <h3>Education</h3>
+            <div class="info-entry">
+              <p class="info-date">2017–2024</p>
+              <h4>M.S. / Ph.D.</h4>
+              <p>Jiangnan University, Wuxi, 214122, China</p>
+              <p class="muted">
+              Supervisor: Prof. Xiao-Jun Wu and Prof. Josef Kittler. <br />I was a visiting PhD student at the CVSSP, University of Surrey, Guildford, U.K. from 2022 to 2023.
+              </p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <h3>Research Experience</h3>
+            <div class="info-entry">
+              <p class="info-date">2024–Present</p>
+              <h4>Lecturer</h4>
+              <p>School of Artificial Intelligence and Computer Science, Jiangnan Unversity</p>
+              <p class="muted">
+              Laboratory:  Josef Kittler Institute of Artificial Intelligence; MOST China–UK Joint Laboratory of Artificial Intelligence; MOE Joint International Research Laboratory of Artificial Intelligence
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container narrow">
+        <div class="section-heading">
+          <p class="eyebrow">Get in Touch</p>
+          <h2>Contact</h2>
+        </div>
+
+        <p>
+          I am open to research collaboration and academic discussion related to my research interests.
+        </p>
+
+        <div class="contact-box">
+          <p>
+            <strong>Email</strong><br />
+            <a href="mailto:yourname@example.com">xuefeng.zhu@jiangnan.edu.cn</a>
+          </p>
+          <p>
+            <strong>Address</strong><br />
+            No.1800 Lihu Avenue, Wuxi, 214122, China
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© All rights reserved.</p>
+      <p>Hosted on GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
