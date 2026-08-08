@@ -590,3 +590,15 @@ a:hover {
   font-size: 1.17rem;
   line-height: 1.45;
 }
+
+.visitor-map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: #fff;
+  overflow: hidden;
+}
